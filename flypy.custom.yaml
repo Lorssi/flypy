@@ -46,7 +46,7 @@ patch:
     #- { when: composing, accept: Control+e, send: End }           # "Control+e" 光标移至尾
     #- { when: composing, accept: Control+g, send: Escape }        # "Control+g" 清码
     #- { when: composing, accept: Return, send: Escape }           # "Return" 回车清码
-    #- { when: always, accept: Control+Shift+1, select: .next }             # 切换输入方案
+    #- { when: always, accept: Control+q, select: .next }             # 切换输入方案 用F4就可以了
     #- { when: always, accept: Control+Shift+2, toggle: ascii_mode }        # 中/英文切换
     #- { when: always, accept: Control+Shift+3, toggle: full_shape }        # 全角/半角切换
     - { when: always, accept: Control+o, toggle: simplification } # 繁简体切换

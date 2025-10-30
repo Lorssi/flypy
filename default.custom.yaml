@@ -2,11 +2,10 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.17.4
   generator: "Rime::SwitcherSettings"
-  modified_time: "Wed Oct 29 21:40:20 2025"
+  modified_time: "Thu Oct 30 22:47:17 2025"
   rime_version: 1.13.1
 patch:
   schema_list:
-    - schema: flypy # 添加小鹤音形
-
-
-
+    - {schema: easy_en}
+    - {schema: flypy}
+    - {schema: double_pinyin_flypy}
