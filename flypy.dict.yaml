@@ -15,6 +15,7 @@ import_tables:
   - 'flypy/flypy.symbols'                 # 符号
   - 'flypy/flypy.wechat'                  # 微信表情
   - 'flypy/flypy.secondary.short.code'    # 二重简码
+  - 'flypy/flypy.primary.short.word'      # 一简词
   - 'flypy/flypy.whimsicality'            # 随心所欲
   # - 'flypy/flypy.full.char'              # 全码字
   - 'flypy/flypy.full'                   # 全码词

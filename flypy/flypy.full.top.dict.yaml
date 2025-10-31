@@ -1,11 +1,10 @@
 # 全码词 置顶
-
 ---
 name: flypy.full.top
-version: "10.9.4"
+version: "10.13.2"
 use_preset_vocabulary: false
 ...
-
+修正	xqvg
 即可	jike
 知道	vidc
 只能	ving
@@ -36,4 +35,6 @@ use_preset_vocabulary: false
 只会	vihv
 一片	yipm
 美丽	mwli
-几位	jiww
+想想	xlxl
+按到	andc
+微软	wwrr

@@ -1,13 +1,10 @@
 # 网站
 ---
 name: flypy.web
-version: "10.9.4"
+version: "10.13.2"
 use_preset_vocabulary: false
 ...
-https://flypy.com	xhgw
+https://flypy.cc	xhgw
 http://flypy.ysepan.com	xhwp
-https://flypy.com/help	xhrm
-https://flypy.cc	xhrm
-
-https://flypy.cc	orm
-http://react.xhup.club/search	ofi
+https://flypy.cc/help	xhrm
+https://flypy.cc/ix	oix

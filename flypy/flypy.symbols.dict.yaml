@@ -1,26 +1,9 @@
 # 符号
-
 ---
 name: flypy.symbols
-version: "10.9.4"
+version: "10.13.2"
 use_preset_vocabulary: false
 ...
-
-# no comment
-‰	oq
-_	ow
-~	op
-&	oa
-*	os
-$	od
-^	of
-=	oh
-#	oj
-|	ol
-+	oz
--	oc
-%	ob
-
 一	oba	111
 丨	obl	111
 丿	obp	111
@@ -394,7 +377,11 @@ $	ofhb	99
 ↘	ofjt	94
 ↖	ofjt	93
 ↔	ofjt	92
-↕	ofjt	91
+⇆	ofjt	91
+⇤	ofjt	90
+⇥	ofjt	89
+«	ofjt	88
+»	ofjt	87
 日小x	ofr	99
 ぁ	ofrx	100
 あ	ofrx	99
@@ -876,10 +863,10 @@ m³	otl	100
 ≈	oty	98
 ○	oty	97
 ●	oty	96
-←	otz	100
-→	otz	99
-↑	otz	98
-↓	otz	97
+»	otz	100
+➔	otz	99
+⇒	otz	98
+➤	otz	97
 ā	oha	100
 á	oha	99
 ǎ	oha	98
@@ -1200,3 +1187,19 @@ m̀	opm	80
 ń	opn	90
 ň	opn	80
 ǹ	opn	70
+‰	oq
+_	ow
+~	op
+&	oa
+*	os
+$	od
+^	of
+=	oh
+# no comment
+#	oj
+|	ol
++	oz
+-	oc
+%	ob
+<	on
+>	om
