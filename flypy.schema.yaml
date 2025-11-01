@@ -45,12 +45,13 @@ engine:
   translators:
     - punct_translator
     - table_translator
-    - lua_translator@*flypy_date_translator
-    - lua_translator@*flypy_time_translator
     - lua_translator@*flypy_fast_translator
     - reverse_lookup_translator
     - history_translator@history
     - lua_translator@*calculator_translator
+    - lua_translator@*time_translator
+    - lua_translator@*number_translator
+    - lua_translator@*web_translator
   filters:
     - simplifier
     - simplifier@simplification
@@ -101,11 +102,12 @@ recognizer:
     #uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     uppercase: "" #中文状态大写锁定直接上屏
     reverse_lookup: "[a-z`]*`+[a-z`]*"
-    punct: ""
+    punct: "^/([0-9]0?|[A-Za-z]+)$" # 匹配/开头的内容 即用于如translator中设置的 /time /date 等
     expression: "^=.*$"
 
 menu:
   page_size: 5 #候选项数
+  alternative_select_labels: [ ㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈ ]  #自定义候选序号显示符
 
 style:
   text_orientation: horizontal
